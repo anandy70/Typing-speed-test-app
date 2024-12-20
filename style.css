@@ -1,0 +1,81 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+.game-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.typing-text {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.result-area {
+    text-align: center;
+}
+
+.result-details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.result-details li {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px; 
+}
+
+.result-details li span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.restart-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.restart-btn:hover {
+    background-color: #0056b3;
+}
